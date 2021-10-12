@@ -2,4 +2,6 @@
 <p>2021-10-12</p>
 <ul>
 	<li>비주얼 스튜디오 설치 - https://youtu.be/VqsEAEleIvw</li>
+	<li>printf - 출력</li>
+	<li>주석</li>
 </ul>
