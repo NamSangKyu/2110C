@@ -21,5 +21,8 @@
     <ClCompile Include="print_test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="variable_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
