@@ -30,5 +30,11 @@
     <ClCompile Include="operator_01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="operator_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="operator_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
