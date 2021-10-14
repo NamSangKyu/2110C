@@ -24,5 +24,11 @@
     <ClCompile Include="variable_01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="variable_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="operator_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
