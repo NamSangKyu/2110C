@@ -12,7 +12,7 @@ int main(void) {
     *           %s - ¹®ÀÚ¿­
     */
     printf("%d\n", 10+20);
-    printf("%d , %d \n", 10, 20, 30);
+    printf("%d , %d \n", 10, 20);
     printf("%d + %d = %d\n", 10, 20, 10 + 20);
     return 0;
 }
