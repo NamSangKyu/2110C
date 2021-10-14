@@ -6,13 +6,13 @@
 #include <stdio.h>
 
 int main(void) {
-    int n1=10, n2=3;
-
+    int n1 = 10, n2 = 3, result = 0;
     /*
     *   사칙연산
     *   +   -   *   /(몫)   %(나머지)
     */
-    printf("%d\n", n1 + n2);
+    result = n1 + n2;//n1+n2의 결과값을 result에 저장
+    printf("%d\n", result);
     printf("%d\n", n1 - n2);
     printf("%d\n", n1 * n2);
     printf("%d\n", n1 / n2);
