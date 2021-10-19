@@ -18,5 +18,8 @@
     <ClCompile Include="double_float.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="casting.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
