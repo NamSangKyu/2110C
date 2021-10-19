@@ -27,5 +27,14 @@
     <ClCompile Include="operator_04.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="operator_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="short_circuit.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
