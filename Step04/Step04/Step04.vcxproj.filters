@@ -39,5 +39,8 @@
     <ClCompile Include="while_quest_3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="while_quest_4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
