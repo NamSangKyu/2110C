@@ -18,5 +18,11 @@
     <ClCompile Include="scanf.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="input_double.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="input_num_3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
