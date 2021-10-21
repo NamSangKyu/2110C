@@ -24,5 +24,11 @@
     <ClCompile Include="input_num_3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="while.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="print_1_100.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
