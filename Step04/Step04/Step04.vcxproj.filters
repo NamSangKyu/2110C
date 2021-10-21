@@ -33,5 +33,8 @@
     <ClCompile Include="sum_1_100.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="while_quest_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
