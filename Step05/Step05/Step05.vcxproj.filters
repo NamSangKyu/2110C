@@ -27,5 +27,8 @@
     <ClCompile Include="loop_in_loop_q3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="do_while.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
