@@ -24,5 +24,8 @@
     <ClCompile Include="loop_in_loop_q2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="loop_in_loop_q3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
