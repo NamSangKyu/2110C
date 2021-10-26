@@ -33,5 +33,11 @@
     <ClCompile Include="else_if_quest_2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="break_continue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="quest_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
