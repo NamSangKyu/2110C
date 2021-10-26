@@ -30,7 +30,7 @@
     <ClCompile Include="else_if_ex.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="else_if_quest_1.c">
+    <ClCompile Include="else_if_quest_2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
