@@ -18,5 +18,8 @@
     <ClCompile Include="money_ea.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="shop_combination.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
