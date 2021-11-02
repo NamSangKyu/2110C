@@ -15,28 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="money_ea.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="shop_combination.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2_k.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="prime_number.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="array_ex_1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="array_ex_2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="array_init.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="array_size.c">
+    <ClCompile Include="array_review.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
