@@ -10,8 +10,7 @@ int main(void) {
     printf("원하시는 메뉴 번호를 입력하세요 : ");
     scanf_s("%d", &no);
 
-    switch (no)
-    {
+    switch (no){
     case 4:
         printf("헤이즐넛 시럽 추가\n");
     case 3:
@@ -20,7 +19,7 @@ int main(void) {
         printf("설탕 추가\n");
     case 1:
         printf("커피 추가\n");
+        printf("커피가 나왔습니다.");
     }
-    printf("커피가 나왔습니다.");
     return 0;
 }
