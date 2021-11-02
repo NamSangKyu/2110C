@@ -14,19 +14,21 @@ int main(void) {
     printf("점수 입력 : ");
     scanf_s("%d", &score);
 
-    if (score >= 90) {
+    switch (score / 10) {
+    case 10:
+    case 9:
         printf("성적 등급 : A");
-    }
-    else if (score >= 80) {
+        break;
+    case 8:
         printf("성적 등급 : B");
-    }
-    else if (score >= 70) {
+        break;
+    case 7:
         printf("성적 등급 : C");
-    }
-    else if (score >= 60) {
+        break;
+    case 6:
         printf("성적 등급 : D");
-    }
-    else {
+        break;
+    default:
         printf("성적 등급 : F");
     }
     return 0;
