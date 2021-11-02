@@ -9,22 +9,24 @@
 */
 int main(void) {
     int arr[10];
-    int i, total, max;
+    int i, total, max, min;
     const int len = sizeof(arr) / sizeof(int);
     for (i = 0; i < len; i++) {
         printf("%d 번째 숫자 입력 : ", i + 1);
         scanf_s("%d", &arr[i]);
     }
     //----------------------------------
-    total = 0;
-    max = arr[0];
-    for (i = 0; i < len; i++) {
+    total = max = min = arr[0];
+    for (i = 1; i < len; i++) {
         total += arr[i];
         if (max < arr[i])
             max = arr[i];
+        if (min > arr[i])
+            min = arr[i];
     }
     printf("총합 : %d\n", total);
     printf("최대값 : %d\n", max);
+    printf("최소값 : %d\n", min);
     return 0;
 }
 
