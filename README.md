@@ -39,4 +39,13 @@
 	<li>break, continue</li>
 	<li>switch</li>
 </ul>
-
+<p>2021-10-28</p>
+<ul>
+	<li>Array(배열)</li>
+	<li>배열 초기화</li>
+	<li>sizeof(배열)</li>
+</ul>
+<p>2021-10-28</p>
+<ul>
+	<li>배열 문제 풀이</li>
+</ul>

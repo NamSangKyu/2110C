@@ -30,5 +30,8 @@
     <ClCompile Include="switch_coffee.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="switch_quest.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
