@@ -26,6 +26,5 @@ int main(void) {
     int result = sum(n1, n2);
     print(result);
 
-
     return 0;
 }
