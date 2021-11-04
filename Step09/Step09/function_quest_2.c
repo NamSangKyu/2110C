@@ -22,9 +22,23 @@ char calcGrade(int score) {
 }
 //숫자 하나를 받아서 해당 숫자가 소수면 1을 리턴,
 //소수가 아니면 0을 리턴함수 - checkPrimeNumber
-
+int checkPrimeNumber(int n) {
+    int i;
+    if (n < 2)
+        return 0;
+    for (i = 2; i < n; i++) {
+        if (n % i == 0)
+            return 0;
+    }
+    return 1;
+}
 
 int main(void) {
-
+    printf("성적 등급 : %c \n", calcGrade(76));
+    int i;
+    for (i = 1; i <= 100; i++) {
+        if (checkPrimeNumber(i))
+            printf("%d ", i);
+    }
     return 0;
 }
