@@ -9,6 +9,7 @@
 int main(void) {
     char str[50];
     int idx = 0;
+    int i;
     printf("문자열 입력 : ");
     scanf_s("%s", str, sizeof(str));
 
@@ -16,5 +17,14 @@ int main(void) {
         idx++;
 
     printf("문자열 개수 : %d\n", idx);
+
+    for (i = 0; i < idx / 2; i++) {
+        char temp = str[i];
+        str[i] = str[idx - 1 - i];
+        str[idx - 1 - i] = temp;
+    }
+
+    printf("뒤집은 결과 : %s\n", str);
+
     return 0;
 }
