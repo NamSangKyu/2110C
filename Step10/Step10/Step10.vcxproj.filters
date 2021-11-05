@@ -24,5 +24,20 @@
     <ClCompile Include="static_variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pointer_ex_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_ex_2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_size.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_ex_3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_ex_4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
