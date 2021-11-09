@@ -18,5 +18,8 @@
     <ClCompile Include="recursive_function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="recursive_quest.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
