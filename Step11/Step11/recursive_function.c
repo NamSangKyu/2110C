@@ -18,7 +18,7 @@ void PrintCount(int count) {
 }
 int main(void) {
     //PrintMessage();
-    PrintCount(10);
+    PrintCount(5);
     printf("프로그램 종료\n");
     return 0;
 }
