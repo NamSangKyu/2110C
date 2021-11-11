@@ -42,5 +42,8 @@
     <ClCompile Include="malloc_function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="realloc_ex.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
