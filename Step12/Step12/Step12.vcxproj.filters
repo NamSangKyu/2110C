@@ -15,28 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="recursive_function.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="recursive_quest.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2DArray_ex_1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2DArray_ex_2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2DArray_address.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2DArray_quest_1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2DArray_quest_2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2DArray_quest_3.c">
+    <ClCompile Include="DecToBin.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
