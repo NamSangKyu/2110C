@@ -30,5 +30,8 @@
     <ClCompile Include="reverse_array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="function_param_pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
