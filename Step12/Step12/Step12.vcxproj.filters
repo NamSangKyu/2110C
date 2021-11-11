@@ -18,5 +18,11 @@
     <ClCompile Include="DecToBin.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Pointer_Operator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer_Array_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
