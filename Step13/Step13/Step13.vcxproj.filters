@@ -18,5 +18,8 @@
     <ClCompile Include="buble_sort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="select_sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
