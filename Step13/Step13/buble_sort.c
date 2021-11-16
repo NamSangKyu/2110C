@@ -16,5 +16,17 @@ void Swap(int* a, int* b) {
 int main(void) {
     //버블 정렬 구현
     int arr[] = { 8,4,6,9,7,1 };
+    int pass, j;
+
+    for (pass = 0; pass < 5; pass++) {
+        for (j = 0; j < 5; j++) {
+            if (arr[j] > arr[j + 1])
+                Swap(&arr[j], &arr[j + 1]);
+        }
+        printf("%d pass : ", pass + 1);
+        PrintArray(arr, 6);
+
+    }
+
     return 0;
 }
