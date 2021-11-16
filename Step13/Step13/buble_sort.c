@@ -15,5 +15,6 @@ void Swap(int* a, int* b) {
 }
 int main(void) {
     //버블 정렬 구현
+    int arr[] = { 8,4,6,9,7,1 };
     return 0;
 }
