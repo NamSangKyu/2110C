@@ -2,14 +2,23 @@
 #include <stdlib.h>
 
 //스택 - 동적할당
+int* stack;
 //스택에 저장할 수 있는 최대 개수
+int max;
 //데이터를 추가할 위치 - TOP
+int top;
 
 void Init() {
     //스택 개수를 입력 받음
+    int size;
     //입력받은 개수만큼 동적할당
+    printf("스택 개수 입력 : ");
+    scanf_s("%d", &size);
+    stack = (int*)malloc(sizeof(int) * size);
     //최대개수 저장
+    max = size;
     //TOP 초기화
+    top = 0;
 }
 //데이터 추가, n - 추가할 데이터
 int Push(int n) {
