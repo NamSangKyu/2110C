@@ -25,6 +25,7 @@ void NodeAppend(List* list, int num) {
     if (ptr == NULL) {//리스트에 노드가 하나도 없는 경우
         list->header = node;
         list->size++;
+        return;
     }
     //마지막 노드 탐색
     while (1) {
@@ -65,8 +66,26 @@ void PrintAllNode(List* list) {
     printf("NULL\n");
 }
 int main(void) {
-    //1. 노드 추가
-    //5. 전체 노드 출력
-    //0. 프로그램 종료
+    int no=-1;
+    List list;
+    Init(&list);
+
+    while (no != 0) {
+        printf("1. 노드 추가\n");
+        printf("5. 전체 노드 출력\n");
+        printf("0. 프로그램 종료\n");
+        printf("원하시는 메뉴 번호 입력 : ");
+        scanf_s("%d", &no);
+        switch (no) {
+        case 1:
+            printf("추가할 데이터 : ");
+            scanf_s("%d", &no);
+            NodeAppend(&list,no);
+            break;
+        case 5:
+            PrintAllNode(&list);
+            break;
+        }
+    }
     return 0;
 }
