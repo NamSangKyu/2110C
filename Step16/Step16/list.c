@@ -12,11 +12,30 @@ typedef struct list {
 }List;
 //초기화
 void Init(List* list) {
-
+    list->size = 0;
+    list->header = NULL;
 }
 //노드 추가
 void NodeAppend(List* list, int num) {
-
+    //노드 생성, 데이터 셋팅
+    Node* node = (Node*)malloc(sizeof(Node));
+    node->val = num;
+    node->next = NULL;
+    Node* ptr = list->header;
+    if (ptr == NULL) {//리스트에 노드가 하나도 없는 경우
+        list->header = node;
+        list->size++;
+    }
+    //마지막 노드 탐색
+    while (1) {
+        if (ptr->next == NULL) {
+            //생성한 노드 연결
+            ptr->next = node;
+            list->size++;
+            break;
+        }
+        ptr = ptr->next;
+    }
 }
 //노드 삭제
 void NodeDelete(List* list, int num) {
