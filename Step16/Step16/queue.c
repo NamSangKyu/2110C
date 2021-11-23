@@ -25,7 +25,29 @@ void Enque() {
 }
 //큐에 저장된 데이터를 뽑음
 void Deque() {
+    //큐가 비어있는지 체크
+    if (front == rear) {
+        printf("큐가 비어있습니다.\n");
+        return;
+    }
+    //데이터 뽑음
+    printf("뽑은 데이터 : %d\n", queue[front]);
+    queue[front] = -1;
+    //front를 다음 위치로 이동
+    front = (front + 1) % QUEUE_SIZE;
+    PrintQueue();//전체출력
 }
 int main(void) {
+    int no;
+    while (1) {
+        printf("1. 데이터 추가\n");
+        printf("2. 데이터 읽기\n");
+        printf("0. 프로그램 종료\n");
+        printf("메뉴번호를 입력하세요 : ");
+        scanf_s("%d", &no);
+        if (no == 1) Enque();
+        else if (no == 2) Deque();
+        else break;
+    }
     return 0;
 }
