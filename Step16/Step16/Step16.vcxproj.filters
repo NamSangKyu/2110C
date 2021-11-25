@@ -24,5 +24,11 @@
     <ClCompile Include="list.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="define.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="define_func.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
