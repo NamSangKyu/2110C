@@ -39,6 +39,9 @@
     <ClCompile Include="cout.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="function.h">
