@@ -33,5 +33,13 @@
     <ClCompile Include="if_def.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="include.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="function.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
