@@ -30,5 +30,8 @@
     <ClCompile Include="define_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="if_def.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
