@@ -40,7 +40,27 @@ void NodeAppend(List* list, int num) {
 }
 //노드 삭제
 void NodeDelete(List* list, int num) {
-
+    if (list->size == 0) {
+        printf("리스트에 저장된 내용이 없습니다.\n");
+        return;
+    }
+    Node* node = list->header;
+    Node* back = NULL;
+    while (node != NULL) {
+        if (node->val == num) {
+            if (back != NULL)
+                back->next = node->next;
+            else
+                list->header = node->next;
+            free(node);
+            list->size--;
+            printf("노드가 삭제되었습니다.\n");
+            return;
+        }
+        back = node;
+        node = node->next;
+    }
+    printf("삭제할 노드가 없습니다.\n");
 }
 //노드 검색 - 검색할 데이터가 num
 Node* NodeSearch(List* list, int num) {
@@ -94,6 +114,7 @@ int main(void) {
         printf("1. 노드 추가\n");
         printf("2. 노드 수정\n");
         printf("3. 노드 검색\n");
+        printf("4. 노드 삭제\n");
         printf("5. 전체 노드 출력\n");
         printf("0. 프로그램 종료\n");
         printf("원하시는 메뉴 번호 입력 : ");
@@ -120,6 +141,11 @@ int main(void) {
                 printf("검색 성공 : %d,%p\n", ptr->val, ptr);
             else
                 printf("검색한 데이터 결과가 없습니다.\n");
+            break;
+        case 4:
+            printf("삭제할 데이터 : ");
+            scanf_s("%d", &no);
+            NodeDelete(&list, no);
             break;
         case 5:
             PrintAllNode(&list);
