@@ -36,5 +36,11 @@
     <ClCompile Include="using.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="reference_ex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="reference_param.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
