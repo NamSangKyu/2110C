@@ -45,5 +45,14 @@
     <ClCompile Include="reference_return.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="c_include.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_memory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_ex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
