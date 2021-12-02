@@ -30,6 +30,7 @@ public:
     ~Employee() {
         delete[] eno;
         delete[] name;
+        cout << "¼Ò¸êÀÚ È£Ãâ" << endl;
     }
 
     const char* GetPositionName() {
