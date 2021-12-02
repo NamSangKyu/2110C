@@ -26,6 +26,17 @@ public:
         name = new char[strlen(n) + 1];
         strcpy_s(name, strlen(n) + 1, n);
     }
+    //복사 생성자 - 매개변수로 자신과 동일한 타입의 값을 참조자로 받음
+    Employee(const Employee& e) {
+        cout << "복사 생성자 호출" << endl;
+        eno = new char[strlen(e.eno) + 1];
+        strcpy_s(eno, strlen(e.eno) + 1, e.eno);
+        name = new char[strlen(e.name) + 1];
+        strcpy_s(name, strlen(e.name) + 1, e.name);
+        position = e.position;
+        salary = e.salary;
+    }
+
     //소멸자(Deconstructor)
     ~Employee() {
         delete[] eno;
@@ -60,5 +71,8 @@ public:
 int main(void) {
     Employee emp("A0001","홍길동",CLERK,2000);
     emp.PrintEmployeeInfo();
+
+    Employee e = emp;
+    e.PrintEmployeeInfo();
     return 0;
 }
