@@ -32,11 +32,32 @@ public:
         delete[] name;
     }
 
-
+    const char* GetPositionName() {
+        switch (position) {
+        case CLERK:
+            return "사원";
+        case SENIOR:
+            return "주임";
+        case ASSISTANT:
+            return "대리";
+        case MANAGER:
+            return "과장";
+        case DEPUTY_GENEARL_MANAGER:
+            return "차장";
+        case GENEARL_MANAGER:
+            return "부장";
+        }
+    }
+    void PrintEmployeeInfo() {
+        cout << "사번 : " << eno << endl;
+        cout << "이름 : " << name << endl;
+        cout << "직급 : " << GetPositionName() << endl;
+        cout << "연봉 : " << salary << endl;
+    }
 };
 
 int main(void) {
-
-
+    Employee emp("A0001","홍길동",CLERK,2000);
+    emp.PrintEmployeeInfo();
     return 0;
 }
