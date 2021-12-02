@@ -49,7 +49,17 @@ struct TV {
 
 };
 int main(void) {
+    TV tv = { 21,10,false };
+    tv.powerOnOff();
+    tv.powerOnOff();
 
-
+    for (int i = 0; i < 30; i++)
+        tv.chDown();
+    for (int i = 0; i < 30; i++)
+        tv.chUp();
+    for (int i = 0; i < 30; i++)
+        tv.volUp();
+    for (int i = 0; i < 40; i++)
+        tv.volDown();
     return 0;
 }
