@@ -61,5 +61,7 @@ int main(void) {
         tv.volUp();
     for (int i = 0; i < 40; i++)
         tv.volDown();
+
+    tv.ch = 8000;
     return 0;
 }
