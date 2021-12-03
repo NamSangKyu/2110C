@@ -9,10 +9,10 @@ using namespace std;
 */
 class OnOff {
 public:
-    void PowerOn() {
+    virtual void PowerOn() {
         cout << "Power On" << endl;
     }
-    void PowerOff() {
+    virtual void PowerOff() {
         cout << "Power Off" << endl;
     }
 };
@@ -68,9 +68,15 @@ public:
 int main(void) {
     TV tv;
     Boiler boiler;
-    tv.PowerOn();
-    tv.PowerOff();
-    boiler.PowerOn();
-    boiler.PowerOff();
+    OnOff* onoff;
+    onoff = &tv;
+    onoff->PowerOn();
+    onoff->PowerOff();
+    onoff = &boiler;//자식클래스를 부모클래스 형변환 Up Casting
+    onoff->PowerOn();
+    onoff->PowerOff();
+    Boiler* ptr = (Boiler*)onoff; //Down Casting
+    ptr->PowerOn();
+    ptr->PowerOff();
     return 0;
 }
