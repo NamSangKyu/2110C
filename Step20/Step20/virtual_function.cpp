@@ -65,6 +65,11 @@ public:
         cout << "Bolier 전원 Off" << endl;
     }
 };
+void powerOn(OnOff& onoff) {
+    onoff.PowerOn();
+}
+
+
 int main(void) {
     TV tv;
     Boiler boiler;
@@ -72,11 +77,14 @@ int main(void) {
     onoff = &tv;
     onoff->PowerOn();
     onoff->PowerOff();
-    onoff = &boiler;//자식클래스를 부모클래스 형변환 Up Casting
-    onoff->PowerOn();
-    onoff->PowerOff();
+    //onoff = &boiler;//자식클래스를 부모클래스 형변환 Up Casting
+    //onoff->PowerOn();
+    //onoff->PowerOff();
     Boiler* ptr = (Boiler*)onoff; //Down Casting
     ptr->PowerOn();
     ptr->PowerOff();
+    cout << "------------" << endl;
+    powerOn(tv);
+    powerOn(boiler);
     return 0;
 }
